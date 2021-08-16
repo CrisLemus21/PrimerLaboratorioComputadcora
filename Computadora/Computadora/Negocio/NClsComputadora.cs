@@ -9,24 +9,23 @@ namespace Computadora.Negocio
 {
     class NClsComputadora
     {
-        ClsComputadora pc = new ClsComputadora();
-
-        public string apagar()
+ 
+        public String apagar(ClsComputadora pc)
         {
             return "Se está apagando la computadora con " + pc.MemoriaRam;
         }
 
-        public string actualizar()
+        public String actualizar(ClsComputadora pc)
         {
             return "Su comptadora tiene una actualización basada en en el sistema " + pc.Sistemaoperativo;
         }
 
-        public string jugar()
+        public String jugar(ClsComputadora pc)
         {
             return "Usted está jugando a una resolución de " + pc.Resolucion;
         }
 
-        public string EncenderComputadora()
+        public String EncenderComputadora(ClsComputadora pc)
         {
             return "La computadora con memoria ram de " + pc.MemoriaRam + "micro procesadora de " + pc.Procesador; 
         }
