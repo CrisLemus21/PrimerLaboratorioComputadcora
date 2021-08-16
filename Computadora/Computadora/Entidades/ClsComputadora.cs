@@ -29,5 +29,7 @@ namespace Computadora.Entidades
         public string Sistemaoperativo { get => sistemaoperativo; set => sistemaoperativo = value; }
         public int Dimenciones { get => dimenciones; set => dimenciones = value; }
         public string Mause { get => mause; set => mause = value; }
+
+        //Hola
     }
 }
