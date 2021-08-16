@@ -26,5 +26,9 @@ namespace Computadora.Negocio
             return "Usted está jugando a una resolución de " + pc.Resolucion;
         }
 
+        public string EncenderComputadora()
+        {
+            return "La computadora con memoria ram de  " + pc.MemoriaRam + "micro procesadora de " + pc.Procesador; 
+        }
     }
 }
