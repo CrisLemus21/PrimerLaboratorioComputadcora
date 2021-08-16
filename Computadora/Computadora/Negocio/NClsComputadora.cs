@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Computadora.Entidades;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,22 @@ namespace Computadora.Negocio
 {
     class NClsComputadora
     {
+        ClsComputadora pc = new ClsComputadora();
+
+        public string apagar()
+        {
+            return "Se está apagando la computadora con " + pc.MemoriaRam;
+        }
+
+        public string actualizar()
+        {
+            return "Su comptadora tiene una actualización basada en en el sistema " + pc.Sistemaoperativo;
+        }
+
+        public string jugar()
+        {
+            return "Usted está jugando a una resolución de " + pc.Resolucion;
+        }
+
     }
 }
